@@ -9,3 +9,15 @@ export interface InfoPagina {
   tumblr?: string;
   equipo_trabajo?: any[];
 }
+
+export interface InfoService {
+  equipo: Equipo[];
+}
+
+export interface Equipo {
+  frase: string;
+  nombre: string;
+  subtitulo: string;
+  twitter: string;
+  url: string;
+}
